@@ -1,0 +1,11 @@
+.vam {
+    vertical-align: middle !important;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+
+table{counter-reset:section;}
+.count:before
+{
+counter-increment:section;
+content:counter(section);
+}
